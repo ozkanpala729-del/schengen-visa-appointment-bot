@@ -2,8 +2,8 @@ name: Randevu Kontrol Cron
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # Her 5 dakikada bir
-  workflow_dispatch:         # Elle de çalıştırabilirsin
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   check-appointments:
